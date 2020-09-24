@@ -67,7 +67,7 @@ class SignupForm extends React.Component {
               redirectUri="http://localhost:3000"
             />
             <FacebookLogin
-              appId="377910029878085"
+              appId="105589512320161719971"
               fields="name,email,picture"
               cssClass="fb"
               buttonText="Sign up with Facebook"
@@ -125,14 +125,7 @@ class SignupForm extends React.Component {
               </Row>
               <Row className="form-group">
                 <Col md={12}>
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    className="y"
-                    name="password"
-                    value={this.state.password}
-                    onChange={this.handlePasswordChange}
-                  ></input>
+                  <input type="password" placeholder="Password" className="y" name="password" value={this.state.password} onChange={this.handlePasswordChange}></input>
                 </Col>
               </Row>
               <Row>
