@@ -1,3 +1,6 @@
+First Clone the git using command git clone https://namanjain99.github.io/Bobble.AI-Assignment/
+Then You have to reun command npm install
+Congraluate You can run the project
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
